@@ -1,5 +1,5 @@
 <template>
-	<div class="grid place-items-center h-screen">
+	<div class="grid place-items-center h-screen sign-in">
 		<div class="container mx-auto px-4 h-full">
 			<div class="flex content-center items-center justify-center h-full">
 				<div class="w-full md:w-7/12 lg:w-5/12 xl:w-1/3 px-4">
@@ -237,7 +237,7 @@ export default {
   }
 };
 </script>
-<style>
+<style scoped>
 span.svg-icon {
   display: inline-block;
   margin: 2px 5px;
@@ -248,5 +248,8 @@ span.svg-icon {
 svg {
   width: 40px;
   height: 40px;
+}
+.sign-in {
+  padding: 0!important;
 }
 </style>

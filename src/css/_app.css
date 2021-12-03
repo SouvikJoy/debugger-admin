@@ -83,3 +83,6 @@ html {
 .wrapper {
   overflow-x: hidden;
 }
+.form-widget {
+  @apply w-full
+}

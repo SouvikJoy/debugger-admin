@@ -2,7 +2,9 @@
 	<div v-if="auth.user">
 		<nav-bar />
 		<aside-menu :menu="menu" />
-		<router-view />
+		<main class="pt-14 xl:pl-60">
+			<router-view />
+		</main>
 		<footer-bar />
 		<overlay
 			v-show="isAsideLgActive"

@@ -1,5 +1,5 @@
 <template>
-	<div class="pt-14">
+	<div>
 		<div>
 			<div class="flex justify-end">
 				<button
