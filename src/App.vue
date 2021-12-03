@@ -21,12 +21,11 @@ import NavBar from '@/components/NavBar.vue';
 import AsideMenu from '@/components/AsideMenu.vue';
 import FooterBar from '@/components/FooterBar.vue';
 import Overlay from '@/components/Overlay.vue';
-import Login from '@/views/Login.vue';
 
 import { auth } from '@/auth';
 
 import useClient from '@/hooks/sb-hooks';
-import SignIn from '@/views/SignIn';
+import SignIn from '@/views/SignIn.vue';
 
 const supabase = useClient();
 const store = useStore();

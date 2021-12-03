@@ -1,18 +1,3 @@
-<script setup>
-defineProps({
-  zIndex: {
-    type: String,
-    default: 'z-50'
-  }
-});
-
-const emit = defineEmits(['overlay-click']);
-
-const overlayClick = event => {
-  emit('overlay-click', event);
-};
-</script>
-
 <template>
 	<div
 		class="flex items-center flex-col justify-center overflow-hidden fixed inset-0"
@@ -41,3 +26,18 @@ const overlayClick = event => {
 		</transition>
 	</div>
 </template>
+
+<script setup>
+defineProps({
+  zIndex: {
+    type: String,
+    default: 'z-50'
+  }
+});
+
+const emit = defineEmits(['overlay-click']);
+
+const overlayClick = event => {
+  emit('overlay-click', event);
+};
+</script>
