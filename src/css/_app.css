@@ -1,0 +1,92 @@
+body {
+  @apply pt-14 xl:pl-60;
+}
+
+#app {
+  @apply w-screen transition-position lg:w-auto;
+}
+
+.dropdown {
+  @apply cursor-pointer;
+}
+
+.m-clipped, .m-clipped body {
+  @apply overflow-hidden lg:overflow-visible;
+}
+
+.full-screen body {
+  @apply p-0;
+}
+.file-upload {
+  @apply
+  relative
+  cursor-pointer
+  bg-white
+  rounded-md
+  font-medium
+  text-indigo-600
+  hover:text-indigo-500
+  focus-within:outline-none
+  focus-within:ring-2
+  focus-within:ring-offset-2
+  focus-within:ring-indigo-500
+}
+.file-upload-container {
+  @apply
+  mt-1
+  flex
+  justify-center
+  px-6
+  pt-5
+  pb-6
+  border-2 border-gray-300 border-dashed
+  rounded-md
+}
+.label-class {
+  @apply mx-2 text-sm font-bold mb-2
+}
+.input-class {
+  @apply border-0 w-full px-3 py-3 text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring ease-linear transition-all duration-150 my-2;
+}
+.error-class {
+  @apply text-xs text-red-600 font-bold tracking-wide
+}
+.nav-link {
+  @apply px-2 py-6 z-10
+}
+.create-button {
+  @apply px-4 py-2 bg-indigo-400 rounded-lg font-bold text-blue-50
+}
+.danger-button {
+  @apply px-4 py-2 bg-red-600 rounded-lg font-bold text-blue-50
+}
+.tab-area {
+  @apply text-center
+}
+
+.title {
+  @apply mx-2 text-sm font-bold mb-2
+}
+html {
+  overflow-x: hidden;
+}
+#app {
+  overflow-x:hidden;
+  background-color: rgba(119, 136, 153, 0.15);
+}
+.auth-form-input {
+  @apply border-0 px-3 py-3 mb-0 text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150;
+}
+.btn-morgan {
+  @apply font-extrabold uppercase px-6 py-3 mr-1 mb-1 w-full rounded shadow hover:shadow-lg outline-none focus:outline-none ease-linear transition-all duration-150;
+  background: rgb(0,115,251);
+  background: linear-gradient(80deg, rgba(0,115,251,1) 0%, rgba(1,218,236,1) 100%);
+  color: #2c3e4f;
+}
+
+.wrapper {
+  overflow-x: hidden;
+}
+.form-widget {
+  @apply w-full
+}
