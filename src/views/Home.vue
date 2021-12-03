@@ -1,7 +1,7 @@
 <template>
 	<hero-bar>Dashboard</hero-bar>
 	<main-section>
-		<div class="mb-6 text-left">
+		<div class="mb-6">
 			<Subscribers />
 		</div>
 

@@ -1,5 +1,5 @@
 <template>
-	<main-section>
+	<main-section class="pt-14">
 		<div class="grid grid-cols-1 lg:grid-cols-2 gap-6 tracking-wider">
 			<card-component
 				title="Edit Profile"

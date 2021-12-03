@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="pt-14">
 		<div>
 			<div
 				v-for="(product, index) in data"

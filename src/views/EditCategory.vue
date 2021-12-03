@@ -2,6 +2,7 @@
 	<div
 		v-for="(category, index) in data"
 		:key="index"
+		class="pt-14"
 	>
 		<div class="flex justify-center min-h-screen">
 			<Form

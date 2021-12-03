@@ -2,7 +2,7 @@
 	<Form
 		ref="formRef"
 		v-slot="{ errors }"
-		class="form-widget"
+		class="pt-14"
 		@submit="updateSiteInfo"
 	>
 		<div class="flex justify-center my-6">
