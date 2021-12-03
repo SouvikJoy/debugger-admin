@@ -11,6 +11,7 @@ import Services from '@/views/Services.vue';
 import EditService from '@/views/EditService.vue';
 import CreateService from '@/views/CreateService.vue';
 import SiteInfo from '@/views/SiteInfo.vue';
+import Test from '@/views/Test.vue';
 
 const routes = [
   {
@@ -20,6 +21,14 @@ const routes = [
     path: '/',
     name: 'home',
     component: Home
+  },
+  {
+    meta: {
+      title: 'Test'
+    },
+    path: '/test',
+    name: 'Test',
+    component: Test
   },
   {
     meta: {

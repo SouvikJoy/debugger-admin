@@ -61,6 +61,17 @@ export default [
           label: 'Create Service'
         }
       ]
+    },
+    {
+      label: 'Test',
+      subLabel: 'Test Sub Menu',
+      icon: mdiViewList,
+      menu: [
+        {
+          to: '/test',
+          label: 'Test'
+        }
+      ]
     }
   ]
 ];
