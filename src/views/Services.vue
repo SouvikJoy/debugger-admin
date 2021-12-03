@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="pt-14">
 		<Header />
 		<div>
 			<div class="flex justify-end">
